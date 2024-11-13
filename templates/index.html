@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <style>
+        .login-container {
+            background: linear-gradient(45deg, #05B6F2, #0520F2, #056BF2);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .admin-container {
+            background-color: #5699F2;
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+
+        .retro-card {
+            background-color: #00F5E6;
+            color: #3605F2;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .retro-table {
+            background-color: #05B6F2;
+            color: white;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .retro-table th {
+            background-color: #3605F2;
+            color: white;
+            padding: 15px 10px;
+        }
+
+        .retro-table td {
+            padding: 12px 10px;
+        }
+
+        .toast-success {
+            background-color: #4CAF50 !important;
+        }
+
+        .toast-error {
+            background-color: #F44336 !important;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .btn-small {
+            margin: 0 4px;
+        }
+
+        .pagination li.active {
+            background-color: #3605F2;
+        }
+
+        nav {
+            background-color: #00F5E6;
+            margin-bottom: 20px;
+        }
+
+        nav .brand-logo {
+            color: #3605F2;
+            padding: 0 20px;
+        }
+
+        nav ul li a {
+            color: #3605F2;
+        }
+
+        .modal {
+            border-radius: 8px;
+        }
+
+        .modal .modal-content {
+            padding: 24px;
+        }
+
+        .tabs .tab a {
+            color: #3605F2;
+        }
+
+        .tabs .tab a:hover,
+        .tabs .tab a.active {
+            color: #0520F2;
+        }
+
+        .tabs .indicator {
+            background-color: #0520F2;
+        }
+
+        .input-field input:focus + label {
+            color: #0520F2 !important;
+        }
+
+        .input-field input:focus {
+            border-bottom: 1px solid #0520F2 !important;
+            box-shadow: 0 1px 0 0 #0520F2 !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Auth Section -->
+    <div id="auth-section" class="login-container">
+        <div class="login-card">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s6"><a href="#login" class="active">Login</a></li>
+                        <li class="tab col s6"><a href="#register">Register</a></li>
+                    </ul>
+                </div>
+                <div id="login" class="col s12">
+                    <form id="login-form" class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="login-email" type="email" class="validate" required>
+                            <label for="login-email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="login-password" type="password" class="validate" required>
+                            <label for="login-password">Password</label>
+                        </div>
+                        <div class="col s12">
+                            <button class="btn waves-effect waves-light col s12" type="submit">
+                                Login
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div id="register" class="col s12">
+                    <form id="register-form" class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="register-email" type="email" class="validate" required>
+                            <label for="register-email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="register-password" type="password" class="validate" required>
+                            <label for="register-password">Password</label>
+                        </div>
+                        <div class="col s12">
+                            <button class="btn waves-effect waves-light col s12" type="submit">
+                                Register
+                                <i class="material-icons right">person_add</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Section -->
+    <div id="admin-section" class="admin-container hidden">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Employee Management</a>
+                <ul id="nav-mobile" class="right">
+                    <li><a href="#" id="logout-btn" class="waves-effect waves-light">
+                        <i class="material-icons">exit_to_app</i>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="card retro-card">
+    <div class="card-content">
+        <span class="card-title">Search Employees</span>
+        <form id="search-form" class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">search</i>
+                <input id="search-input" type="text" class="validate">
+                <label for="search-input">Search</label>
+            </div>
+            <div class="input-field col s4">
+                <select id="search-type">
+                    <option value="name" selected>By Name</option>
+                    <option value="id">By ID</option>
+                    <option value="department">By Department</option>
+                    <option value="title">By Title</option>
+                    <option value="salary">By Salary</option>
+                </select>
+                <label>Search Type</label>
+            </div>
+            <div class="input-field col s2">
+                <button class="btn waves-effect waves-light" type="submit">
+                    <i class="material-icons">search</i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card retro-card">
+                        <div class="card-content">
+                            <span class="card-title">Employees</span>
+                            <div class="table-container">
+                                <table class="retro-table responsive-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Title</th>
+                                            <th>Salary</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="employees-table-body">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="center-align" style="margin-top: 20px;">
+                                <ul class="pagination" id="pagination">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Employee Modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <h4>Edit Employee</h4>
+            <form id="edit-form">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="edit-first-name" type="text" class="validate" required>
+                        <label for="edit-first-name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="edit-last-name" type="text" class="validate" required>
+                        <label for="edit-last-name">Last Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="edit-salary" type="number" class="validate" required>
+                        <label for="edit-salary">Salary</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal-close waves-effect waves-light btn-flat">Cancel</button>
+                    <button type="submit" class="waves-effect waves-light btn">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

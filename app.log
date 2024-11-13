@@ -1,0 +1,363 @@
+2024-10-27 21:55:47,772 - app - INFO - Database connection pool created successfully
+2024-10-27 21:55:47,785 - app - INFO - Database initialized successfully
+2024-10-27 21:55:47,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 21:55:47,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 21:55:47,804 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 21:55:48,014 - app - INFO - Database connection pool created successfully
+2024-10-27 21:55:48,016 - app - INFO - Database initialized successfully
+2024-10-27 21:55:48,020 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 21:55:48,027 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 21:57:01,623 - app - INFO - Database connection pool created successfully
+2024-10-27 21:57:01,625 - app - INFO - Database initialized successfully
+2024-10-27 21:57:01,633 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 21:57:01,633 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 21:57:01,633 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 21:57:01,835 - app - INFO - Database connection pool created successfully
+2024-10-27 21:57:01,837 - app - INFO - Database initialized successfully
+2024-10-27 21:57:01,840 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 21:57:01,852 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 21:57:09,207 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:57:09] "GET / HTTP/1.1" 200 -
+2024-10-27 21:57:09,227 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:57:09] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-27 21:57:09,230 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:57:09] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-27 21:57:09,878 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:57:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-27 21:58:23,506 - app - INFO - New user registered: compiladores-test@email.com
+2024-10-27 21:58:23,507 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:58:23] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2024-10-27 21:58:40,660 - app - INFO - User logged in: compiladores-test@email.com
+2024-10-27 21:58:40,662 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:58:40] "POST /api/login HTTP/1.1" 200 -
+2024-10-27 21:58:40,690 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:58:40] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 21:58:47,909 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:58:47] "GET /api/employees?page=2&limit=10 HTTP/1.1" 200 -
+2024-10-27 21:58:51,965 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 21:58:51] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:04:01,594 - app - INFO - Database connection pool created successfully
+2024-10-27 22:04:01,596 - app - INFO - Database initialized successfully
+2024-10-27 22:04:01,601 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-27 22:04:01,601 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:06:18,892 - app - INFO - Database connection pool created successfully
+2024-10-27 22:06:18,894 - app - INFO - Database initialized successfully
+2024-10-27 22:06:18,899 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-27 22:06:18,899 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:08:27,160 - app - INFO - Database connection pool created successfully
+2024-10-27 22:08:27,162 - app - INFO - Database initialized successfully
+2024-10-27 22:08:27,174 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 22:08:27,174 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:08:27,174 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:08:27,377 - app - INFO - Database connection pool created successfully
+2024-10-27 22:08:27,379 - app - INFO - Database initialized successfully
+2024-10-27 22:08:27,383 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:08:27,391 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:08:35,576 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:35] "GET / HTTP/1.1" 200 -
+2024-10-27 22:08:35,597 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:08:35,624 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:35] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:08:35,728 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:08:48,208 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:48] "[33mGET /api HTTP/1.1[0m" 404 -
+2024-10-27 22:08:57,465 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:08:57] "GET /api/test-db HTTP/1.1" 200 -
+2024-10-27 22:16:44,615 - app - INFO - Database connection pool created successfully
+2024-10-27 22:16:44,631 - app - INFO - Database initialized successfully
+2024-10-27 22:16:44,637 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 22:16:44,637 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:16:44,638 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:16:44,843 - app - INFO - Database connection pool created successfully
+2024-10-27 22:16:44,846 - app - INFO - Database initialized successfully
+2024-10-27 22:16:44,850 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:16:44,858 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:16:53,360 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:16:53] "GET / HTTP/1.1" 200 -
+2024-10-27 22:16:53,426 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:16:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:16:53,469 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:16:53] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:16:53,546 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:16:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:17:23,770 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:23] "GET /api/employees?page=30003&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:17:25,465 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:25] "GET /api/employees?page=30003&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:17:36,832 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:36] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:17:40,069 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:40] "GET /api/employees?page=4&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:17:46,333 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:46] "GET /api/employees/10031 HTTP/1.1" 200 -
+2024-10-27 22:17:52,829 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:17:52] "GET /api/employees/10031 HTTP/1.1" 200 -
+2024-10-27 22:19:09,030 - werkzeug - INFO -  * Detected change in '/Users/Eyvar/PycharmProjects/CompiladoresProyectoFinal/app.py', reloading
+2024-10-27 22:19:09,083 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:19:09,297 - app - INFO - Database connection pool created successfully
+2024-10-27 22:19:09,300 - app - INFO - Database initialized successfully
+2024-10-27 22:19:09,304 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:19:09,312 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:19:55,706 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:19:55] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-27 22:19:57,965 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:19:57] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-27 22:20:26,354 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:20:26] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-27 22:20:27,656 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:20:27] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-27 22:20:35,245 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:20:35] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-27 22:21:09,141 - app - INFO - New user registered: compiladores-test@email.com
+2024-10-27 22:21:09,142 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:21:09] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2024-10-27 22:21:19,580 - app - INFO - User logged in: compiladores-test@email.com
+2024-10-27 22:21:19,581 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:21:19] "POST /api/login HTTP/1.1" 200 -
+2024-10-27 22:21:19,608 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:21:19] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:30:33,456 - app - INFO - Database connection pool created successfully
+2024-10-27 22:30:33,459 - app - INFO - Database initialized successfully
+2024-10-27 22:30:33,468 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 22:30:33,468 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:30:33,468 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:30:33,670 - app - INFO - Database connection pool created successfully
+2024-10-27 22:30:33,672 - app - INFO - Database initialized successfully
+2024-10-27 22:30:33,675 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:30:33,682 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:30:39,504 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:39] "GET / HTTP/1.1" 200 -
+2024-10-27 22:30:39,567 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:30:39,614 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:39] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:30:39,688 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:30:43,312 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:43] "GET /api/employees/10001 HTTP/1.1" 200 -
+2024-10-27 22:30:46,337 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:30:46] "GET /api/employees/10001 HTTP/1.1" 200 -
+2024-10-27 22:31:37,187 - app - INFO - User logged in: compiladores-test@email.com
+2024-10-27 22:31:37,189 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:31:37] "POST /api/login HTTP/1.1" 200 -
+2024-10-27 22:31:37,218 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:31:37] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:50:56,914 - app - INFO - Database connection pool created successfully
+2024-10-27 22:50:56,916 - app - INFO - Database initialized successfully
+2024-10-27 22:50:56,926 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 22:50:56,926 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:50:56,926 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:50:57,125 - app - INFO - Database connection pool created successfully
+2024-10-27 22:50:57,127 - app - INFO - Database initialized successfully
+2024-10-27 22:50:57,130 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:50:57,138 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:51:01,694 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:01] "GET / HTTP/1.1" 200 -
+2024-10-27 22:51:01,749 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-27 22:51:01,792 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:01] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:51:01,867 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-27 22:51:14,840 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:14] "GET /api/employees/search?q=Z&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:20,255 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:20] "GET /api/employees/search?q=Za&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:29,331 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:29] "GET /api/employees/search?q=G&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:30,854 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:30] "GET /api/employees/search?q=Gi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:33,477 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:33] "GET /api/employees/search?q=Gi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:40,854 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:40] "GET / HTTP/1.1" 200 -
+2024-10-27 22:51:40,873 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:51:40,876 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:51:40,902 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:40] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:51:46,771 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:46] "GET /api/employees/search?q=Ger&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:46,948 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:46] "GET /api/employees/search?q=G&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:47,821 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:47] "GET /api/employees/search?q=Ge&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:48,659 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:48] "GET /api/employees/search?q=Geor&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:49,207 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:49] "GET /api/employees/search?q=Georgi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:52,168 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:52] "GET /api/employees/search?q=Georgi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:52,995 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:52] "GET /api/employees/search?q=Georgi%20F&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:53,447 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:53] "GET /api/employees/search?q=Georgi%20Fa&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:54,639 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:54] "GET /api/employees/search?q=Georgi%20Facello&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:51:57,954 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:51:57] "GET /api/employees/search?q=Georgi%20Facello&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:09,601 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:09] "[31m[1mGET /api/employees/search?q=Georgi%20Facello&by=id&page=1 HTTP/1.1[0m" 400 -
+2024-10-27 22:52:13,682 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:13] "GET /api/employees/search?q=Georgi%20Facello&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:23,839 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:23] "GET / HTTP/1.1" 200 -
+2024-10-27 22:52:23,856 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:52:23,859 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-27 22:52:23,881 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:23] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:52:39,747 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:39] "GET /api/employees/search?q=Se&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:40,418 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:40] "GET /api/employees/search?q=Sen&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:40,863 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:40] "GET /api/employees/search?q=Seni&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:41,613 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:41] "GET /api/employees/search?q=Senior&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:43,988 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:43] "GET /api/employees/search?q=Senior%20Engineer&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:44,682 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:44] "GET /api/employees/search?q=Senior&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:48,779 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:48] "GET /api/employees/search?q=Senior%20Engineer&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:50,455 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:50] "GET /api/employees/search?q=Senior%20Engineer&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:53,566 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:53] "GET /api/employees/search?q=Senior%20Engineer&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:52:55,259 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:52:55] "GET /api/employees/search?q=Senior%20Engineer&by=title&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:09,346 - app - INFO - Database connection pool created successfully
+2024-10-27 22:58:09,348 - app - INFO - Database initialized successfully
+2024-10-27 22:58:09,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.47:5871
+2024-10-27 22:58:09,356 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-27 22:58:09,356 - werkzeug - INFO -  * Restarting with stat
+2024-10-27 22:58:09,573 - app - INFO - Database connection pool created successfully
+2024-10-27 22:58:09,574 - app - INFO - Database initialized successfully
+2024-10-27 22:58:09,577 - werkzeug - WARNING -  * Debugger is active!
+2024-10-27 22:58:09,585 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-27 22:58:13,675 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:13] "GET / HTTP/1.1" 200 -
+2024-10-27 22:58:13,707 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:13] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-27 22:58:13,736 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:13] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-27 22:58:19,013 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:19] "GET /api/employees/search?q=G&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:19,450 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:19] "GET /api/employees/search?q=Geor&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:20,205 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:20] "GET /api/employees/search?q=Georg&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:21,166 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:21] "GET /api/employees/search?q=Georgi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:24,457 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:24] "GET /api/employees/search?q=Georgi&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:25,637 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:25] "GET /api/employees/search?q=Georgi%20F&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:25,970 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:25] "GET /api/employees/search?q=Georgi%20Fa&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:27,171 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:27] "GET /api/employees/search?q=Georgi%20Facello&by=name&page=1 HTTP/1.1" 200 -
+2024-10-27 22:58:32,008 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2024 22:58:32] "GET /api/employees/search?q=Georgi%20Facell&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 10:48:36,558 - app - INFO - Database connection pool created successfully
+2024-10-30 10:48:36,568 - app - INFO - Database initialized successfully
+2024-10-30 10:48:36,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.139.188:5871
+2024-10-30 10:48:36,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 10:48:36,592 - werkzeug - INFO -  * Restarting with stat
+2024-10-30 10:48:36,854 - app - INFO - Database connection pool created successfully
+2024-10-30 10:48:36,857 - app - INFO - Database initialized successfully
+2024-10-30 10:48:36,860 - werkzeug - WARNING -  * Debugger is active!
+2024-10-30 10:48:36,871 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-30 10:48:52,600 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:48:52] "GET / HTTP/1.1" 200 -
+2024-10-30 10:48:52,625 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:48:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-30 10:48:52,644 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:48:52] "[31m[1mGET /api/employees?page=1&limit=10 HTTP/1.1[0m" 401 -
+2024-10-30 10:48:52,747 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:48:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-10-30 10:48:53,294 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:48:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-30 10:49:52,607 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:49:52] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-30 10:49:55,306 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:49:55] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-30 10:50:24,020 - app - INFO - User logged in: compiladores-test@email.com
+2024-10-30 10:50:24,021 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:50:24] "POST /api/login HTTP/1.1" 200 -
+2024-10-30 10:50:24,076 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:50:24] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-30 10:50:59,777 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:50:59] "GET /api/employees?page=30003&limit=10 HTTP/1.1" 200 -
+2024-10-30 10:51:04,660 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:04] "GET /api/employees?page=30003&limit=10 HTTP/1.1" 200 -
+2024-10-30 10:51:17,112 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:17] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-10-30 10:51:26,839 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:26] "GET /api/employees/search?q=G&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 10:51:26,990 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:26] "GET /api/employees/search?q=Ge&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 10:51:27,742 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:27] "GET /api/employees/search?q=Geor&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 10:51:28,213 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:28] "GET /api/employees/search?q=Georg&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 10:51:55,563 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 10:51:55] "GET /api/employees/search?q=Geor&by=name&page=1 HTTP/1.1" 200 -
+2024-10-30 11:08:26,658 - app - INFO - Database connection pool created successfully
+2024-10-30 11:08:26,661 - app - INFO - Database initialized successfully
+2024-10-30 11:08:26,666 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.139.188:5871
+2024-10-30 11:08:26,666 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 11:08:26,667 - werkzeug - INFO -  * Restarting with stat
+2024-10-30 11:08:26,865 - app - INFO - Database connection pool created successfully
+2024-10-30 11:08:26,866 - app - INFO - Database initialized successfully
+2024-10-30 11:08:26,869 - werkzeug - WARNING -  * Debugger is active!
+2024-10-30 11:08:26,877 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-10-30 11:08:34,726 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 11:08:34] "GET / HTTP/1.1" 200 -
+2024-10-30 11:08:34,750 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 11:08:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-10-30 11:08:34,791 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 11:08:34] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-03 21:04:58,963 - app - INFO - Database connection pool created successfully
+2024-11-03 21:04:58,966 - app - INFO - Database initialized successfully
+2024-11-03 21:04:58,975 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.0.15:5871
+2024-11-03 21:04:58,975 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-03 21:04:58,975 - werkzeug - INFO -  * Restarting with stat
+2024-11-03 21:04:59,177 - app - INFO - Database connection pool created successfully
+2024-11-03 21:04:59,179 - app - INFO - Database initialized successfully
+2024-11-03 21:04:59,183 - werkzeug - WARNING -  * Debugger is active!
+2024-11-03 21:04:59,193 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-03 21:05:08,870 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2024 21:05:08] "GET / HTTP/1.1" 200 -
+2024-11-03 21:05:08,930 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2024 21:05:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-03 21:05:08,933 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2024 21:05:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-03 21:05:26,826 - app - INFO - User logged in: compiladores-test@email.com
+2024-11-03 21:05:26,827 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2024 21:05:26] "POST /api/login HTTP/1.1" 200 -
+2024-11-03 21:05:26,861 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2024 21:05:26] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-09 11:46:18,357 - app - INFO - Database connection pool created successfully
+2024-11-09 11:46:18,361 - app - INFO - Database initialized successfully
+2024-11-09 11:46:18,371 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://172.20.10.12:5871
+2024-11-09 11:46:18,371 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 11:46:18,371 - werkzeug - INFO -  * Restarting with stat
+2024-11-09 11:46:18,574 - app - INFO - Database connection pool created successfully
+2024-11-09 11:46:18,577 - app - INFO - Database initialized successfully
+2024-11-09 11:46:18,580 - werkzeug - WARNING -  * Debugger is active!
+2024-11-09 11:46:18,588 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-09 11:46:39,034 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:46:39] "GET / HTTP/1.1" 200 -
+2024-11-09 11:46:39,088 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:46:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-09 11:46:39,090 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:46:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-09 11:46:40,669 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:46:40] "[31m[1mGET /api/employees?page=1&limit=10 HTTP/1.1[0m" 401 -
+2024-11-09 11:49:07,818 - app - INFO - User logged in: compiladores-test@email.com
+2024-11-09 11:49:07,819 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:49:07] "POST /api/login HTTP/1.1" 200 -
+2024-11-09 11:49:07,856 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:49:07] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-09 11:50:13,218 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:50:13] "GET /api/employees/search?q=Parto&by=name&page=1 HTTP/1.1" 200 -
+2024-11-09 11:50:13,348 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2024 11:50:13] "GET /api/employees/search?q=Pa&by=name&page=1 HTTP/1.1" 200 -
+2024-11-12 20:23:27,959 - app - INFO - Database connection pool created successfully
+2024-11-12 20:23:27,974 - app - INFO - Database initialized successfully
+2024-11-12 20:23:27,987 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.12:5871
+2024-11-12 20:23:27,987 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 20:23:27,988 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 20:23:28,199 - app - INFO - Database connection pool created successfully
+2024-11-12 20:23:28,201 - app - INFO - Database initialized successfully
+2024-11-12 20:23:28,204 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 20:23:28,212 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-12 20:23:40,479 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:40] "GET / HTTP/1.1" 200 -
+2024-11-12 20:23:40,544 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-12 20:23:40,663 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-12 20:23:41,026 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-12 20:23:58,499 - app - INFO - User logged in: compiladores-test@email.com
+2024-11-12 20:23:58,501 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:58] "POST /api/login HTTP/1.1" 200 -
+2024-11-12 20:23:58,562 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:23:58] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:14,262 - app - INFO - Database connection pool created successfully
+2024-11-12 20:36:14,264 - app - INFO - Database initialized successfully
+2024-11-12 20:36:14,271 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.12:5871
+2024-11-12 20:36:14,271 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 20:36:14,272 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 20:36:14,473 - app - INFO - Database connection pool created successfully
+2024-11-12 20:36:14,475 - app - INFO - Database initialized successfully
+2024-11-12 20:36:14,479 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 20:36:14,486 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-12 20:36:23,364 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:23] "GET / HTTP/1.1" 200 -
+2024-11-12 20:36:23,418 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-12 20:36:23,448 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:23] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:23,538 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-12 20:36:26,638 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:26] "GET /api/employees?page=10&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:27,911 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:27] "GET /api/employees?page=11&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:28,662 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:28] "GET /api/employees?page=12&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:29,701 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:29] "GET /api/employees?page=10&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:30,414 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:30] "GET /api/employees?page=10&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:31,494 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:31] "GET /api/employees?page=11&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:32,318 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:32] "GET /api/employees?page=9&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:36:32,915 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:36:32] "GET /api/employees?page=10&limit=10 HTTP/1.1" 200 -
+2024-11-12 20:46:39,215 - app - INFO - User logged in: compiladores-test@email.com
+2024-11-12 20:46:39,217 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:46:39] "POST /api/login HTTP/1.1" 200 -
+2024-11-12 20:46:39,243 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 20:46:39] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-12 21:51:38,438 - app - INFO - Database connection pool created successfully
+2024-11-12 21:51:38,440 - app - INFO - Database initialized successfully
+2024-11-12 21:51:38,465 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.12:5871
+2024-11-12 21:51:38,465 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 21:51:38,465 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 21:51:38,658 - app - INFO - Database connection pool created successfully
+2024-11-12 21:51:38,660 - app - INFO - Database initialized successfully
+2024-11-12 21:51:38,663 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 21:51:38,672 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-12 22:17:43,281 - app - INFO - Database connection pool created successfully
+2024-11-12 22:17:43,283 - app - INFO - Database initialized successfully
+2024-11-12 22:17:43,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5871
+ * Running on http://192.168.3.12:5871
+2024-11-12 22:17:43,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 22:17:43,291 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:17:43,492 - app - INFO - Database connection pool created successfully
+2024-11-12 22:17:43,493 - app - INFO - Database initialized successfully
+2024-11-12 22:17:43,496 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:17:43,510 - werkzeug - INFO -  * Debugger PIN: 126-173-963
+2024-11-12 22:40:19,369 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:40:19] "GET / HTTP/1.1" 200 -
+2024-11-12 22:40:19,384 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:40:19] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-12 22:40:20,311 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:40:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-12 22:41:42,351 - app - INFO - User logged in: compiladores-test@email.com
+2024-11-12 22:41:42,352 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:41:42] "POST /api/login HTTP/1.1" 200 -
+2024-11-12 22:41:42,386 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:41:42] "GET /api/employees?page=1&limit=10 HTTP/1.1" 200 -
+2024-11-12 22:42:21,559 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:21] "GET /api/employees/search?q=6060&by=salary&page=1 HTTP/1.1" 200 -
+2024-11-12 22:42:22,882 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:22] "GET /api/employees/search?q=60&by=salary&page=1 HTTP/1.1" 200 -
+2024-11-12 22:42:23,354 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:23] "GET /api/employees/search?q=60000&by=salary&page=1 HTTP/1.1" 200 -
+2024-11-12 22:42:23,403 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:23] "GET /api/employees/search?q=60000&by=salary&page=1 HTTP/1.1" 200 -
+2024-11-12 22:42:35,744 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:35] "GET /api/employees/search?q=Sumant&by=name&page=1 HTTP/1.1" 200 -
+2024-11-12 22:42:45,206 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:42:45] "GET /api/employees/10009 HTTP/1.1" 200 -
